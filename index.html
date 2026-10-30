@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="School Furniture – World Class School Furniture. Pakistan ki leading school furniture manufacturer: desks, chairs, boards, lab, library aur hostel furniture factory prices par.">
+<title>School Furniture – World Class School Furniture</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Requested Color Palette */
+  --primary-navy:#102A43;
+  --secondary-steel:#486581;
+  --light-bg:#F7F9FC;
+  --white:#FFFFFF;
+  --accent-orange:#F59E0B;
+  --main-text:#243B53;
+  --muted-text:#627D98;
+  --border-color:#D9E2EC;
+  --success-color:#16803C;
+  --error-color:#B42318;
+
+  /* Aliases */
+  --navy:var(--primary-navy);
+  --steel:var(--secondary-steel);
+  --bg:var(--light-bg);
+  --accent:var(--accent-orange);
+  --text:var(--main-text);
+  --muted:var(--muted-text);
+  --border:var(--border-color);
+  --success:var(--success-color);
+  --error:var(--error-color);
+  --wa:#25D366;
+  --nav-h:72px;
+  --shadow-sm:0 2px 8px rgba(16,42,67,.06),0 10px 24px rgba(16,42,67,.06);
+  --shadow-md:0 6px 16px rgba(16,42,67,.08),0 20px 44px rgba(16,42,67,.12);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px;scrollbar-color:var(--steel) var(--bg);scrollbar-width:thin}
+body{font-family:'Outfit',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+button,input,select,textarea{font-family:inherit}
+::selection{background:var(--accent);color:var(--navy)}
+::-webkit-scrollbar{width:11px;height:11px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--steel),var(--navy));border-radius:10px;border:2px solid var(--bg)}
+::-webkit-scrollbar-thumb:hover{background:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1200px;margin:auto;padding:0 20px}
+section{padding:96px 0}
+h2.title{font-size:clamp(28px,4vw,42px);color:var(--navy);text-align:center;margin-bottom:12px;font-weight:800;letter-spacing:-.5px;line-height:1.2}
+h2.title::after{content:"";display:block;width:66px;height:5px;border-radius:5px;background:linear-gradient(90deg,var(--accent),#FBBF24);margin:16px auto 0}
+p.sub{text-align:center;color:var(--muted);max-width:660px;margin:0 auto 50px;font-size:17px}
+.skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:var(--navy);padding:10px 18px;z-index:200;font-weight:700;border-radius:0 0 10px 0}
+.skip:focus{left:0}
+
+/* ===== BUTTONS ===== */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 26px;border-radius:50px;font-weight:700;font-size:15px;border:2px solid transparent;cursor:pointer;transition:transform .25s ease,box-shadow .25s ease,background .25s ease,color .25s ease}
+.btn:hover{transform:translateY(-3px)}
+.btn:active{transform:translateY(-1px) scale(.98)}
+.btn-accent{background:linear-gradient(135deg,var(--accent),#FBBF24);color:var(--navy);box-shadow:0 8px 20px rgba(245,158,11,.35)}
+.btn-accent:hover{box-shadow:0 14px 30px rgba(245,158,11,.5)}
+.btn-wa{background:var(--success);color:#fff;box-shadow:0 8px 20px rgba(22,128,60,.32)}
+.btn-wa:hover{box-shadow:0 14px 30px rgba(22,128,60,.45)}
+.btn-line{border-color:rgba(255,255,255,.6);color:#fff;background:rgba(255,255,255,.06)}
+.btn-line:hover{background:#fff;color:var(--navy)}
+.btn-ghost{background:var(--white);border-color:var(--border);color:var(--text);box-shadow:var(--shadow-sm)}
+.btn-ghost:hover{border-color:var(--steel);color:var(--navy)}
+.btn-err{background:transparent;border-color:var(--error);color:var(--error)}
+.btn-err:hover{background:var(--error);color:#fff}
+
+/* ===== NAV ===== */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(16,42,67,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);padding:12px 0;transition:background .35s ease,box-shadow .35s ease,padding .35s ease}
+nav.scrolled{background:rgba(16,42,67,.97);box-shadow:0 10px 34px rgba(16,42,67,.35);padding:8px 0}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:14px}
+.logo{color:#fff;font-weight:800;font-size:24px;letter-spacing:-.5px;white-space:nowrap}
+.logo b{color:var(--accent)}
+nav ul{display:flex;gap:26px;list-style:none}
+nav ul a{color:#D9E2EC;font-weight:500;font-size:15px;position:relative;padding:6px 2px;transition:color .25s ease}
+nav ul a::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--accent);transition:width .3s ease;border-radius:2px}
+nav ul a:hover{color:#fff}
+nav ul a:hover::after{width:100%}
+.nav-actions{display:flex;align-items:center;gap:10px}
+.cart-btn{position:relative;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);color:#fff;padding:10px 18px;border-radius:50px;font-weight:700;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;transition:.25s}
+.cart-btn:hover{background:var(--accent);color:var(--navy);border-color:var(--accent);transform:translateY(-2px)}
+.cart-count{position:absolute;top:-7px;right:-7px;min-width:21px;height:21px;padding:0 5px;border-radius:11px;background:var(--accent);color:var(--navy);font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;border:2px solid var(--navy);transition:transform .3s cubic-bezier(.34,1.56,.64,1)}
+.cart-count.bump{transform:scale(1.35)}
+.nav-wa{padding:10px 22px;font-size:14px}
+.menu{display:none;background:none;border:0;color:#fff;font-size:26px;cursor:pointer;line-height:1;padding:6px 8px}
+.progress{position:absolute;left:0;bottom:0;height:3px;width:0;background:linear-gradient(90deg,var(--accent),#FDE68A);box-shadow:0 0 10px rgba(245,158,11,.7);border-radius:0 3px 3px 0;transition:width .1s linear}
+
+/* ===== HERO ===== */
+.hero{min-height:100vh;display:flex;align-items:center;padding-top:120px;padding-bottom:60px;position:relative;overflow:hidden;color:#fff;background:linear-gradient(135deg,#102A43 0%,#1B3A5B 45%,#486581 100%)}
+.hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.16;mix-blend-mode:luminosity;pointer-events:none}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 78% 28%,rgba(245,158,11,.20),transparent 55%),radial-gradient(circle at 10% 85%,rgba(72,101,129,.5),transparent 60%);pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center;position:relative;z-index:2}
+.badge{display:inline-block;background:rgba(245,158,11,.16);border:1px solid rgba(245,158,11,.45);color:#FDE68A;padding:8px 18px;border-radius:30px;font-size:12.5px;font-weight:700;letter-spacing:1.4px;margin-bottom:22px}
+.hero h1{font-size:clamp(34px,5.5vw,64px);line-height:1.06;margin-bottom:20px;font-weight:800;letter-spacing:-1.5px}
+.hero h1 span{background:linear-gradient(120deg,var(--accent),#FDE68A);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:#D9E2EC;font-size:18px;line-height:1.75;margin-bottom:32px;max-width:540px}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap}
+.hero-in{opacity:0;animation:heroIn .9s cubic-bezier(.22,.9,.3,1) forwards}
+@keyframes heroIn{from{opacity:0;transform:translateY(34px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.1s}.d2{animation-delay:.28s}.d3{animation-delay:.46s}.d4{animation-delay:.64s}
+.scene{perspective:1200px;height:460px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;user-select:none}
+.cube-stage{position:relative;width:250px;height:250px;display:flex;align-items:center;justify-content:center;cursor:grab}
+.cube-stage:active{cursor:grabbing}
+.cube{width:240px;height:240px;position:relative;transform-style:preserve-3d;animation:spinCube 16s linear infinite;filter:drop-shadow(0 22px 42px rgba(0,0,0,.5));will-change:transform;transition:transform .12s ease-out}
+.cube.is-dragging{animation:none !important;transition:none !important}
+.cube .face{position:absolute;width:240px;height:240px;overflow:hidden;border:3px solid rgba(255,255,255,.9);border-radius:18px;background:linear-gradient(135deg,var(--steel),var(--navy));box-shadow:inset 0 0 0 1px rgba(245,158,11,.45),0 0 35px rgba(0,0,0,.45);backface-visibility:visible}
+.cube .face img{width:100%;height:100%;object-fit:cover;display:block}
+.cube-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,42,67,.08) 0%,rgba(16,42,67,.65) 100%);pointer-events:none;z-index:1}
+/* 4 Corners Styling */
+.corner{position:absolute;width:20px;height:20px;border-color:var(--accent);border-style:solid;border-width:0;pointer-events:none;z-index:4;filter:drop-shadow(0 0 4px rgba(245,158,11,.7))}
+.c-tl{top:8px;left:8px;border-top-width:3px;border-left-width:3px;border-top-left-radius:5px}
+.c-tr{top:8px;right:8px;border-top-width:3px;border-right-width:3px;border-top-right-radius:5px}
+.c-bl{bottom:8px;left:8px;border-bottom-width:3px;border-left-width:3px;border-bottom-left-radius:5px}
+.c-br{bottom:8px;right:8px;border-bottom-width:3px;border-right-width:3px;border-bottom-right-radius:5px}
+.cube-tag{position:absolute;bottom:12px;left:10px;right:10px;background:rgba(16,42,67,.88);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(245,158,11,.5);border-radius:10px;padding:6px 10px;display:flex;align-items:center;gap:8px;color:#fff;font-size:12.5px;font-weight:700;z-index:3;box-shadow:0 6px 14px rgba(0,0,0,.4);letter-spacing:.3px}
+.cube-tag-icon{font-size:16px;line-height:1}
+.cube-tag-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cube .f1{transform:translateZ(120px)}
+.cube .f2{transform:rotateY(90deg) translateZ(120px)}
+.cube .f3{transform:rotateY(180deg) translateZ(120px)}
+.cube .f4{transform:rotateY(-90deg) translateZ(120px)}
+.cube .f5{transform:rotateX(90deg) translateZ(120px)}
+.cube .f6{transform:rotateX(-90deg) translateZ(120px)}
+@keyframes spinCube{
+  0%{transform:rotateX(-16deg) rotateY(0deg) rotateZ(0deg)}
+  25%{transform:rotateX(-6deg) rotateY(90deg) rotateZ(2deg)}
+  50%{transform:rotateX(-22deg) rotateY(180deg) rotateZ(-2deg)}
+  75%{transform:rotateX(-8deg) rotateY(270deg) rotateZ(1deg)}
+  100%{transform:rotateX(-16deg) rotateY(360deg) rotateZ(0deg)}
+}
+.cube-shadow{position:absolute;bottom:-36px;width:190px;height:24px;background:radial-gradient(ellipse at center,rgba(0,0,0,.65) 0%,rgba(16,42,67,0) 70%);border-radius:50%;pointer-events:none;animation:shadowBreathe 16s ease-in-out infinite}
+@keyframes shadowBreathe{
+  0%,100%{transform:scale(1);opacity:.85}
+  25%{transform:scale(1.1);opacity:.7}
+  50%{transform:scale(1.18);opacity:.55}
+  75%{transform:scale(1.06);opacity:.75}
+}
+.cube-hint{margin-top:42px;font-size:12px;font-weight:600;letter-spacing:.5px;color:#D9E2EC;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.2);padding:5px 14px;border-radius:20px;display:inline-flex;align-items:center;gap:6px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.float{position:absolute;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgba(245,158,11,.35),rgba(245,158,11,.06));border:1px solid rgba(245,158,11,.25);animation:fl 7s ease-in-out infinite;pointer-events:none}
+.float.b{background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.22),rgba(255,255,255,.03));border-color:rgba(255,255,255,.18);animation-duration:9s;animation-delay:1.5s}
+@keyframes fl{50%{transform:translateY(-42px) scale(1.09)}}
+
+/* ===== STATS ===== */
+.stats{background:linear-gradient(135deg,var(--accent),#FBBF24);padding:44px 0;position:relative;overflow:hidden}
+.stats::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 15% 20%,rgba(255,255,255,.35),transparent 45%);pointer-events:none}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center;position:relative}
+.stats h3{font-size:clamp(32px,4vw,46px);color:var(--navy);font-weight:800;line-height:1.1;letter-spacing:-1px}
+.stats p{font-weight:600;color:#4A3405;font-size:15px;letter-spacing:.3px}
+.stat{padding:8px 6px;border-radius:16px;transition:transform .3s ease}
+.stat:hover{transform:translateY(-5px)}
+
+/* ===== PRODUCTS ===== */
+#products{background:var(--bg)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:45px}
+.filters button{padding:10px 22px;border-radius:30px;border:1.5px solid var(--border);background:var(--white);color:var(--text);font-weight:600;font-size:14px;cursor:pointer;transition:.25s;box-shadow:var(--shadow-sm)}
+.filters button:hover{border-color:var(--accent);color:var(--navy);transform:translateY(-2px)}
+.filters button.on{background:linear-gradient(135deg,var(--accent),#FBBF24);border-color:var(--accent);color:var(--navy);box-shadow:0 8px 18px rgba(245,158,11,.4)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:28px;perspective:1500px}
+.card{background:var(--white);border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-sm);transform-style:preserve-3d;transition:transform .18s ease,box-shadow .35s ease;will-change:transform}
+.card:hover{box-shadow:var(--shadow-md)}
+.card-img{height:200px;overflow:hidden;position:relative;border-radius:19px 19px 0 0;background:linear-gradient(135deg,var(--steel),var(--navy))}
+.card-ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:56px;opacity:.55}
+.card-img img{width:100%;height:100%;object-fit:cover;position:relative;transition:transform .6s cubic-bezier(.22,.9,.3,1)}
+.card:hover .card-img img{transform:scale(1.1)}
+.tag{position:absolute;top:12px;left:12px;background:var(--accent);color:var(--navy);font-size:11.5px;font-weight:800;padding:5px 13px;border-radius:20px;z-index:2;letter-spacing:.4px;box-shadow:0 4px 12px rgba(0,0,0,.2)}
+.card-body{padding:20px;transform:translateZ(40px)}
+.card-body h3{font-size:18px;color:var(--navy);margin-bottom:8px;font-weight:700;line-height:1.3}
+.card-body>p{font-size:14px;color:var(--muted);line-height:1.55;margin-bottom:16px;min-height:44px}
+.actions{display:flex;gap:8px;align-items:stretch}
+.actions .btn{flex:1;padding:11px 8px;font-size:13.5px;border-radius:12px;min-width:0;white-space:nowrap}
+.btn-cart.added{background:var(--success);border-color:var(--success);color:#fff;box-shadow:0 8px 18px rgba(22,128,60,.35)}
+.icon-btn{flex:0 0 44px;width:44px;height:auto;min-height:44px;border-radius:50%;background:var(--success);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 16px rgba(22,128,60,.35);transition:transform .25s ease,box-shadow .25s ease,background .25s}
+.icon-btn:hover{transform:translateY(-3px) scale(1.06);box-shadow:0 12px 24px rgba(22,128,60,.5)}
+.icon-btn svg{width:21px;height:21px;fill:#fff}
+
+/* ===== ABOUT ===== */
+.about{background:var(--white)}
+.about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.about .pic{perspective:1100px;position:relative}
+.about .pic .ph{position:absolute;inset:0;border-radius:22px;background:linear-gradient(135deg,var(--steel),var(--navy));display:flex;align-items:center;justify-content:center;font-size:70px}
+.about .pic img{width:100%;min-height:330px;object-fit:cover;border-radius:22px;box-shadow:0 30px 60px rgba(16,42,67,.3);transform:rotateY(-11deg) rotateX(4deg);transition:transform .7s cubic-bezier(.22,.9,.3,1);position:relative;background:linear-gradient(135deg,var(--steel),var(--navy))}
+.about .pic:hover img{transform:rotateY(0) rotateX(0)}
+.about h2{font-size:clamp(28px,4vw,40px);color:var(--navy);margin-bottom:18px;font-weight:800;letter-spacing:-.8px}
+.about p{line-height:1.8;color:var(--text);margin-bottom:14px}
+.about ul{list-style:none;margin-top:18px;display:grid;gap:10px}
+.about li{padding:11px 16px;font-weight:600;background:var(--bg);border:1px solid var(--border);border-radius:12px;color:var(--navy);display:flex;gap:10px;align-items:center;transition:.3s}
+.about li:hover{transform:translateX(6px);border-color:var(--accent);background:#FFFBF0}
+.about li::before{content:"✔";color:var(--success);font-weight:800}
+
+/* ===== WHY ===== */
+.why{background:linear-gradient(160deg,#102A43 0%,#1B3A5B 60%,#2C4A66 100%);position:relative;overflow:hidden}
+.why::before{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(245,158,11,.16),transparent 65%);top:-120px;right:-90px}
+.why h2.title{color:#fff}
+.why p.sub{color:#BCCCDC}
+.why .g{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:26px;position:relative}
+.why .b{background:rgba(255,255,255,.07);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.14);padding:34px 26px;border-radius:20px;color:#fff;transition:transform .4s ease,box-shadow .4s ease,background .4s ease;text-align:center}
+.why .b:hover{transform:translateY(-10px);background:rgba(245,158,11,.15);border-color:rgba(245,158,11,.45);box-shadow:0 24px 50px rgba(0,0,0,.35)}
+.why .ic{width:66px;height:66px;margin:0 auto 16px;border-radius:20px;background:rgba(245,158,11,.18);border:1px solid rgba(245,158,11,.35);display:flex;align-items:center;justify-content:center;font-size:32px}
+.why h3{margin-bottom:8px;color:var(--accent);font-size:19px}
+.why .b p{color:#BCCCDC;font-size:14.5px;line-height:1.65}
+
+/* ===== STEPS ===== */
+#order{background:var(--bg)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:24px}
+.step{position:relative;text-align:center;padding:34px 22px;border-radius:20px;background:var(--white);border:1px solid var(--border);box-shadow:var(--shadow-sm);transition:transform .35s ease,box-shadow .35s ease}
+.step:hover{transform:translateY(-8px);box-shadow:var(--shadow-md)}
+.step span{display:inline-flex;width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#FBBF24);color:var(--navy);align-items:center;justify-content:center;font-size:22px;font-weight:800;margin-bottom:14px;box-shadow:0 10px 22px rgba(245,158,11,.4)}
+.step h3{font-size:18px;color:var(--navy);margin-bottom:6px}
+.step p{font-size:14px;color:var(--muted)}
+
+/* ===== CONTACT ===== */
+#contact{background:var(--white)}
+.contact{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:start}
+.info{background:linear-gradient(150deg,#102A43,#1B3A5B 55%,#486581);color:#fff;padding:42px;border-radius:22px;box-shadow:var(--shadow-md);position:relative;overflow:hidden}
+.info::after{content:"";position:absolute;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(245,158,11,.25),transparent 70%);bottom:-70px;right:-60px}
+.info h3{font-size:27px;margin-bottom:22px;font-weight:800}
+.info p{margin:16px 0;line-height:1.7;color:#D9E2EC;position:relative;z-index:2}
+.info p b{color:#fff}
+.info .btn{margin-top:16px;position:relative;z-index:2}
+form{background:var(--white);padding:36px;border-radius:22px;border:1px solid var(--border);box-shadow:var(--shadow-md)}
+.field{margin-bottom:16px}
+form label{display:block;font-size:13.5px;font-weight:600;color:var(--navy);margin-bottom:6px}
+form input,form textarea,form select{width:100%;padding:13px 15px;border:1.5px solid var(--border);border-radius:12px;font-size:15px;background:var(--bg);color:var(--text);transition:border-color .25s,box-shadow .25s,background .25s}
+form input:focus,form textarea:focus,form select:focus{outline:none;border-color:var(--accent);background:#fff;box-shadow:0 0 0 4px rgba(245,158,11,.18)}
+form input:invalid:not(:placeholder-shown),form textarea:invalid:not(:placeholder-shown){border-color:var(--error);background:#FEF3F2}
+form textarea{resize:vertical;min-height:110px}
+form .btn{width:100%;margin-top:6px}
+.err-msg{color:var(--error);font-size:13px;font-weight:600;margin-top:6px;display:none}
+.err-msg.show{display:block}
+
+/* ===== 3D REVIEWS SECTION ===== */
+.reviews-section{background:linear-gradient(180deg,var(--white) 0%,var(--bg) 100%);position:relative;overflow:hidden;padding:96px 0}
+.reviews-section::before{content:"";position:absolute;width:480px;height:480px;border-radius:50%;background:radial-gradient(circle,rgba(245,158,11,.08),transparent 70%);top:-140px;left:-100px;pointer-events:none}
+.reviews-section::after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(72,101,129,.12),transparent 70%);bottom:-120px;right:-80px;pointer-events:none}
+.reviews-header{text-align:center;margin-bottom:50px}
+.reviews-header .badge{margin-bottom:14px}
+.reviews-3d-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:28px;perspective:1400px;margin-bottom:50px}
+.rev-card{background:var(--white);border:1.5px solid var(--border);border-radius:22px;padding:32px 26px;box-shadow:var(--shadow-sm);transform-style:preserve-3d;transition:transform .3s cubic-bezier(.22,.9,.3,1),box-shadow .35s ease,border-color .35s ease;position:relative;will-change:transform}
+.rev-card:hover{box-shadow:var(--shadow-md);border-color:rgba(245,158,11,.6);transform:translateY(-8px)}
+.rev-card-inner{transform-style:preserve-3d}
+.rev-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.rev-stars{color:var(--accent);font-size:18px;letter-spacing:2px;transform:translateZ(20px)}
+.rev-quote-badge{font-size:56px;line-height:.8;color:rgba(245,158,11,.22);font-family:Georgia,serif;font-weight:900;transform:translateZ(25px)}
+.rev-text{font-size:15px;line-height:1.75;color:var(--text);margin-bottom:24px;font-style:italic;transform:translateZ(18px)}
+.rev-author{display:flex;align-items:center;gap:14px;transform:translateZ(24px)}
+.rev-avatar-box{position:relative;width:52px;height:52px;flex-shrink:0;border-radius:50%;padding:2px;background:linear-gradient(135deg,var(--accent),var(--steel))}
+.rev-avatar{width:100%;height:100%;border-radius:50%;object-fit:cover;border:2px solid #fff;display:block}
+.rev-verified{position:absolute;bottom:-2px;right:-2px;width:18px;height:18px;border-radius:50%;background:var(--success);color:#fff;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;border:2px solid #fff;box-shadow:0 2px 6px rgba(22,128,60,.4)}
+.rev-meta strong{display:block;color:var(--navy);font-size:15.5px;font-weight:700;line-height:1.3}
+.rev-role{display:block;color:var(--steel);font-size:13px;font-weight:600}
+.rev-loc{display:inline-block;color:var(--muted);font-size:12px;margin-top:2px}
+
+/* Review Trust Banner */
+.review-trust-banner{background:linear-gradient(135deg,#102A43,#1B3A5B 60%,#486581);color:#fff;padding:26px 36px;border-radius:20px;display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap;gap:20px;box-shadow:var(--shadow-md);border:1px solid rgba(255,255,255,.14)}
+.trust-item{text-align:center}
+.trust-item strong{display:block;font-size:clamp(22px,3vw,32px);color:var(--accent);font-weight:800;line-height:1.1}
+.trust-item span{font-size:13.5px;color:#D9E2EC;font-weight:600}
+.trust-divider{width:1px;height:42px;background:rgba(255,255,255,.2)}
+
+/* ===== EXPANDED FOOTER ===== */
+.site-footer{background:linear-gradient(165deg,#0B1B2B 0%,#102A43 45%,#152F48 100%);color:#9FB3C8;padding:70px 0 26px;border-top:4px solid var(--accent);position:relative;overflow:hidden}
+.site-footer::before{content:"";position:absolute;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(245,158,11,.08),transparent 70%);top:-120px;left:-60px;pointer-events:none}
+.footer-top{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:40px;margin-bottom:50px;position:relative;z-index:2}
+.f-brand .logo{display:inline-block;margin-bottom:16px;font-size:26px}
+.f-desc{font-size:14.5px;line-height:1.75;color:#BCCCDC;margin-bottom:20px}
+.f-badges{display:flex;flex-wrap:wrap;gap:8px}
+.f-pill{font-size:12px;font-weight:700;color:#FDE68A;background:rgba(245,158,11,.14);border:1px solid rgba(245,158,11,.3);padding:4px 12px;border-radius:20px}
+.f-col h4{color:#fff;font-size:17.5px;font-weight:800;margin-bottom:20px;letter-spacing:-.2px;position:relative;padding-bottom:10px}
+.f-col h4::after{content:"";position:absolute;left:0;bottom:0;width:34px;height:3px;background:var(--accent);border-radius:3px}
+.f-links{list-style:none;display:grid;gap:11px}
+.f-links a{color:#BCCCDC;font-size:14px;transition:color .25s ease,transform .25s ease;display:inline-flex;align-items:center;gap:6px}
+.f-links a::before{content:"›";color:var(--accent);font-size:16px;line-height:1;transition:transform .2s}
+.f-links a:hover{color:#fff;transform:translateX(4px)}
+.f-links a:hover::before{transform:translateX(2px)}
+.f-ci{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px;font-size:13.5px}
+.f-ic{font-size:18px;line-height:1.2;flex-shrink:0}
+.f-ci strong{display:block;color:#fff;font-size:13.5px;margin-bottom:2px}
+.f-ci a{color:#FDE68A;font-weight:700;font-size:16px}
+.f-ci a:hover{text-decoration:underline}
+.f-ci span{color:#BCCCDC}
+.f-btn{margin-top:10px;width:100%;font-size:14px;padding:11px 20px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;font-size:13.5px;color:#829AB1;position:relative;z-index:2}
+.footer-bottom b{color:#fff}
+.f-foot-links{display:flex;gap:18px}
+.f-foot-links a{color:#BCCCDC;transition:.2s}
+.f-foot-links a:hover{color:var(--accent)}
+
+/* ===== FLOATING WHATSAPP ===== */
+.wafloat{position:fixed;right:22px;bottom:22px;z-index:60;width:62px;height:62px;border-radius:50%;background:var(--wa);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 25px rgba(37,211,102,.6);animation:pulse 2.2s infinite}
+.wafloat:hover{transform:scale(1.08)}
+.wafloat svg{width:34px;height:34px;fill:#fff}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.7)}70%{box-shadow:0 0 0 22px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+
+/* ===== CART DRAWER ===== */
+.overlay{position:fixed;inset:0;background:rgba(11,32,51,.6);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);opacity:0;visibility:hidden;transition:opacity .4s ease,visibility .4s ease;z-index:108}
+.overlay.open{opacity:1;visibility:visible}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(420px,100%);background:var(--white);z-index:110;transform:translateX(100%);opacity:0;visibility:hidden;transition:transform .45s cubic-bezier(.22,.9,.3,1),opacity .45s ease,visibility .45s;display:flex;flex-direction:column;box-shadow:-20px 0 50px rgba(16,42,67,.3)}
+.drawer.open{transform:translateX(0);opacity:1;visibility:visible}
+.drawer-head{background:linear-gradient(135deg,#102A43,#486581);color:#fff;padding:22px 22px;display:flex;justify-content:space-between;align-items:center}
+.drawer-head h3{font-size:20px;font-weight:800}
+.drawer-close{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:#fff;width:38px;height:38px;border-radius:50%;font-size:20px;cursor:pointer;line-height:1;transition:.25s}
+.drawer-close:hover{background:var(--accent);color:var(--navy);transform:rotate(90deg)}
+.drawer-body{flex:1;overflow-y:auto;padding:18px 20px}
+.empty{text-align:center;padding:54px 16px;color:var(--muted)}
+.empty .big{font-size:52px;display:block;margin-bottom:12px}
+.citem{display:flex;gap:12px;align-items:center;padding:14px 0;border-bottom:1px solid var(--border);animation:itemIn .35s ease}
+@keyframes itemIn{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
+.citem .cname{flex:1;min-width:0}
+.citem .cname strong{display:block;font-size:15px;color:var(--navy);line-height:1.35}
+.citem .cname small{color:var(--muted);font-size:12.5px}
+.qty{display:flex;align-items:center;gap:6px;background:var(--bg);border:1px solid var(--border);border-radius:30px;padding:3px}
+.qty button{width:28px;height:28px;border-radius:50%;border:0;background:var(--white);border:1px solid var(--border);color:var(--navy);font-size:16px;font-weight:800;cursor:pointer;line-height:1;transition:.2s}
+.qty button:hover{background:var(--accent);border-color:var(--accent)}
+.qty span{min-width:22px;text-align:center;font-weight:700;font-size:14px;color:var(--navy)}
+.rm{width:32px;height:32px;border-radius:50%;border:1.5px solid var(--error);background:transparent;color:var(--error);font-size:17px;cursor:pointer;line-height:1;transition:.2s;flex:0 0 32px}
+.rm:hover{background:var(--error);color:#fff}
+.drawer-foot{padding:18px 20px 24px;border-top:1px solid var(--border);background:var(--bg);display:grid;gap:10px}
+.drawer-foot .total{display:flex;justify-content:space-between;font-weight:700;color:var(--navy);font-size:15.5px}
+.drawer-foot .btn{width:100%}
+#toast{position:fixed;left:50%;bottom:34px;transform:translate(-50%,26px);background:var(--success);color:#fff;padding:13px 26px;border-radius:50px;font-weight:700;font-size:14.5px;z-index:120;opacity:0;visibility:hidden;transition:.4s cubic-bezier(.22,.9,.3,1);box-shadow:0 14px 34px rgba(22,128,60,.45);pointer-events:none}
+#toast.show{opacity:1;visibility:visible;transform:translate(-50%,0)}
+
+/* ===== REVEAL ===== */
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s cubic-bezier(.22,.9,.3,1) var(--d,0ms),transform .8s cubic-bezier(.22,.9,.3,1) var(--d,0ms)}
+.rv.in{opacity:1;transform:none}
+.grid .card.rv{transition:transform .2s cubic-bezier(.22,.9,.3,1) var(--d,0ms),box-shadow .35s ease,opacity .7s ease var(--d,0ms)}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:900px){
+  section{padding:70px 0}
+  .hero .wrap,.about .wrap,.contact{grid-template-columns:1fr}
+  .hero{padding-top:110px;text-align:left}
+  .stats .wrap{grid-template-columns:repeat(2,1fr)}
+  nav ul{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(16,42,67,.98);flex-direction:column;padding:18px 24px 24px;gap:6px;box-shadow:0 20px 34px rgba(16,42,67,.35);border-top:1px solid rgba(255,255,255,.1)}
+  nav ul.open{display:flex}
+  nav ul a{display:block;padding:12px 4px;font-size:16px}
+  .menu{display:block}
+  .nav-wa{display:none}
+  .scene{height:350px;order:-1}
+  .cube-stage{width:180px;height:180px}
+  .cube,.cube .face{width:170px;height:170px}
+  .cube .f1{transform:translateZ(85px)}.cube .f2{transform:rotateY(90deg) translateZ(85px)}
+  .cube .f3{transform:rotateY(180deg) translateZ(85px)}.cube .f4{transform:rotateY(-90deg) translateZ(85px)}
+  .cube .f5{transform:rotateX(90deg) translateZ(85px)}.cube .f6{transform:rotateX(-90deg) translateZ(85px)}
+  .cube-shadow{width:140px;bottom:-26px}
+  .cube-hint{margin-top:32px;font-size:11px;padding:4px 10px}
+  .about .pic{order:-1}
+  .about .pic img{transform:none;min-height:240px}
+  .info{padding:32px 26px}
+  form{padding:26px 22px}
+  .footer-top{grid-template-columns:1fr 1fr;gap:36px}
+}
+@media(max-width:768px){
+  .trust-divider{display:none}
+  .review-trust-banner{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .footer-top{grid-template-columns:1fr;gap:30px}
+  .footer-bottom{flex-direction:column;text-align:center}
+}
+@media(max-width:480px){
+  .logo{font-size:20px}
+  .cart-btn{padding:9px 13px;font-size:13px}
+  .actions{gap:6px}
+  .actions .btn{flex:1 1 38%;font-size:12.5px;padding:10px 5px}
+  .actions .icon-btn{flex:0 0 40px;width:40px;min-height:40px}
+  .hero .cta .btn{width:100%}
+  .card-body>p{min-height:0}
+  .reviews-3d-grid{grid-template-columns:1fr}
+  .rev-card{padding:24px 20px}
+  .review-trust-banner{grid-template-columns:1fr;text-align:center}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important}
+  .cube{animation:spinCube 24s linear infinite !important}
+  .float{animation:none}
+  .wafloat{animation:none}
+  .hero-in{opacity:1;animation:none}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#products">Skip to products</a>
+
+<nav id="nav"><div class="wrap">
+  <a class="logo" href="#home" aria-label="School Furniture home">School <b>Furniture</b></a>
+  <ul id="menu">
+    <li><a href="#home">Home</a></li><li><a href="#products">Products</a></li>
+    <li><a href="#about">About</a></li><li><a href="#why">Why Us</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="cart-btn" id="cartOpen" aria-label="Cart kholein" aria-haspopup="dialog">🛒 Cart <span class="cart-count" id="cartCount" aria-live="polite">0</span></button>
+    <a class="btn btn-wa nav-wa" href="https://wa.me/923246627054" target="_blank" rel="noopener">WhatsApp</a>
+    <button class="menu" id="menuBtn" aria-label="Menu kholein" aria-expanded="false" aria-controls="menu">☰</button>
+  </div>
+  <div class="progress" id="progress" role="presentation"></div>
+</div></nav>
+
+<header class="hero" id="home">
+  <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&amp;fit=crop&amp;w=2000&amp;q=80')"></div>
+  <div class="float" style="width:170px;height:170px;top:14%;left:4%"></div>
+  <div class="float b" style="width:110px;height:110px;bottom:14%;right:7%"></div>
+  <div class="float" style="width:70px;height:70px;top:24%;right:26%;animation-delay:1s"></div>
+  <div class="wrap">
+    <div>
+      <span class="badge hero-in d1">★ WORLD CLASS SCHOOL FURNITURE</span>
+      <h1 class="hero-in d2">Furniture Jo Banaye <span>Classroom Ko Smart</span></h1>
+      <p class="hero-in d3">Schools, colleges aur academies ke liye durable, ergonomic aur khubsurat furniture. Desks, chairs, boards, lab aur library — sab ek jagah, factory prices par.</p>
+      <div class="cta hero-in d4">
+        <a href="#products" class="btn btn-accent">Products Dekhein</a>
+        <a href="https://wa.me/923246627054?text=Assalam%20o%20Alaikum%2C%20mujhe%20school%20furniture%20ka%20quotation%20chahiye" target="_blank" rel="noopener" class="btn btn-wa">Free Quote – WhatsApp</a>
+      </div>
+    </div>
+    <div class="scene" id="cubeScene" aria-label="3D School Furniture Box - Rotate or drag to explore">
+      <div class="cube-stage">
+        <div class="cube" id="cube">
+          <div class="face f1" aria-label="Classroom Desks">
+            <span class="corner c-tl"></span><span class="corner c-tr"></span>
+            <span class="corner c-bl"></span><span class="corner c-br"></span>
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Classroom Desks" loading="eager" onerror="this.style.display='none'">
+            <div class="cube-overlay"></div>
+            <div class="cube-tag"><span class="cube-tag-icon">🪑</span><span class="cube-tag-text">Classroom Desks</span></div>
+          </div>
+          <div class="face f2" aria-label="Ergonomic Chairs">
+            <span class="corner c-tl"></span><span class="corner c-tr"></span>
+            <span class="corner c-bl"></span><span class="corner c-br"></span>
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Student Chairs" loading="eager" onerror="this.style.display='none'">
+            <div class="cube-overlay"></div>
+            <div class="cube-tag"><span class="cube-tag-icon">💺</span><span class="cube-tag-text">Ergonomic Chairs</span></div>
+          </div>
+          <div class="face f3" aria-label="Steel Lockers">
+            <span class="corner c-tl"></span><span class="corner c-tr"></span>
+            <span class="corner c-bl"></span><span class="corner c-br"></span>
+            <img src="https://images.unsplash.com/photo-1595846519845-68e298c2edd8?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Steel Lockers" loading="eager" onerror="this.style.display='none'">
+            <div class="cube-overlay"></div>
+            <div class="cube-tag"><span class="cube-tag-icon">🔐</span><span class="cube-tag-text">Steel Lockers</span></div>
+          </div>
+          <div class="face f4" aria-label="Library Furniture">
+            <span class="corner c-tl"></span><span class="corner c-tr"></span>
+            <span class="corner c-bl"></span><span class="corner c-br"></span>
+            <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Library Furniture" loading="eager" onerror="this.style.display='none'">
+            <div class="cube-overlay"></div>
+            <div class="cube-tag"><span class="cube-tag-icon">📚</span><span class="cube-tag-text">Library Shelves</span></div>
+          </div>
+          <div class="face f5" aria-label="Science Lab">
+            <span class="corner c-tl"></span><span class="corner c-tr"></span>
+            <span class="corner c-bl"></span><span class="corner c-br"></span>
+            <img src="https://images.unsplash.com/photo-1554475901-4538ddfbccc2?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Science Lab Table" loading="eager" onerror="this.style.display='none'">
+            <div class="cube-overlay"></div>
+            <div class="cube-tag"><span class="cube-tag-icon">🔬</span><span class="cube-tag-text">Lab Workstations</span></div>
+          </div>
+          <div class="face f6" aria-label="Playground &amp; Kids">
+            <span class="corner c-tl"></span><span class="corner c-tr"></span>
+            <span class="corner c-bl"></span><span class="corner c-br"></span>
+            <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Playground Furniture" loading="eager" onerror="this.style.display='none'">
+            <div class="cube-overlay"></div>
+            <div class="cube-tag"><span class="cube-tag-icon">🧒</span><span class="cube-tag-text">Play &amp; Kids Setup</span></div>
+          </div>
+        </div>
+        <div class="cube-shadow" aria-hidden="true"></div>
+      </div>
+      <div class="cube-hint" aria-hidden="true"><span>🔄</span> 3D Box • Drag ya ghoomta dekhein</div>
+    </div>
+  </div>
+</header>
+
+<div class="stats"><div class="wrap">
+  <div class="stat"><h3 data-n="500" data-suffix="+">0</h3><p>Schools Served</p></div>
+  <div class="stat"><h3 data-n="50000" data-suffix="+">0</h3><p>Desks Delivered</p></div>
+  <div class="stat"><h3 data-n="15" data-suffix="+">0</h3><p>Years Experience</p></div>
+  <div class="stat"><h3 data-n="100" data-suffix="%">0</h3><p>Satisfaction</p></div>
+</div></div>
+
+<section id="products"><div class="wrap">
+  <h2 class="title rv">Our 3D Product Collection</h2>
+  <p class="sub rv">Mouse card par le jayein aur 3D effect dekhein. Har product par WhatsApp se seedha order, ya cart mein add kar ke bulk order bhejein.</p>
+  <div class="filters" id="filters" role="group" aria-label="Product categories filter"></div>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap">
+  <div class="pic rv">
+    <div class="ph" aria-hidden="true">🏫</div>
+    <img id="aboutImg" loading="lazy" alt="School Furniture ke modern school classroom furniture ka manzar"
+      src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+      onerror="this.style.display='none'">
+  </div>
+  <div class="rv">
+    <h2>About School Furniture</h2>
+    <p>Hum 15 saal se Pakistan ke schools, colleges, universities aur academies ko premium furniture supply kar rahe hain. Hamari factory mein har cheez strong steel, solid wood aur safe finishing se banti hai.</p>
+    <p>Bachon ki sehat aur comfort ko dhyan mein rakh kar ergonomic design banaya jata hai, taake wo behtar parh saken.</p>
+    <ul><li>Custom size aur colours</li><li>Bulk orders par special discount</li><li>Free delivery aur installation</li><li>Warranty aur after-sales support</li></ul>
+  </div>
+</div></section>
+
+<section class="why" id="why"><div class="wrap">
+  <h2 class="title rv">Why Choose Us</h2>
+  <p class="sub rv">Hamen kyun chunein? Kyunke quality, price aur service teeno ek sath milti hain.</p>
+  <div class="g">
+    <div class="b rv"><div class="ic" aria-hidden="true">🛡️</div><h3>Premium Quality</h3><p>Heavy-duty steel frame aur anti-scratch finishing jo saalon chale.</p></div>
+    <div class="b rv"><div class="ic" aria-hidden="true">💰</div><h3>Factory Direct Price</h3><p>Koi middleman nahi, seedha factory se behtareen rates.</p></div>
+    <div class="b rv"><div class="ic" aria-hidden="true">🎨</div><h3>Custom Design</h3><p>Apne school ke colour, logo aur size ke mutabiq furniture.</p></div>
+    <div class="b rv"><div class="ic" aria-hidden="true">🚚</div><h3>Fast Delivery</h3><p>Pure Pakistan mein time par delivery aur free installation.</p></div>
+    <div class="b rv"><div class="ic" aria-hidden="true">🧒</div><h3>Child Safe Ergonomic</h3><p>Rounded edges aur sehat-mand posture wale designs.</p></div>
+    <div class="b rv"><div class="ic" aria-hidden="true">🤝</div><h3>After Sales Support</h3><p>Warranty aur repair service, har waqt WhatsApp par.</p></div>
+  </div>
+</div></section>
+
+<section id="order"><div class="wrap">
+  <h2 class="title rv">Order Kaise Karein?</h2>
+  <p class="sub rv">Sirf 4 asaan steps</p>
+  <div class="steps">
+    <div class="step rv"><span>1</span><h3>Product Chunein</h3><p>Collection se apna pasandeeda furniture select karein.</p></div>
+    <div class="step rv"><span>2</span><h3>WhatsApp Par Quote</h3><p>Ek click mein quantity aur details bhejein.</p></div>
+    <div class="step rv"><span>3</span><h3>Design Confirm</h3><p>Colour, size aur sample confirm karein.</p></div>
+    <div class="step rv"><span>4</span><h3>Delivery &amp; Setup</h3><p>Free delivery aur installation apne school mein.</p></div>
+  </div>
+</div></section>
+
+<section id="reviews" class="reviews-section"><div class="wrap">
+  <div class="reviews-header text-center">
+    <span class="badge rv">★ CLIENT TESTIMONIALS</span>
+    <h2 class="title rv">What School Leaders Say</h2>
+    <p class="sub rv">Pakistan ke 500+ leading schools, colleges aur academies ka School Furniture par aetimad. Dekhein hamare satisfied clients ki raye.</p>
+  </div>
+  <div class="reviews-3d-grid" id="reviewsGrid">
+    <div class="rev-card rv">
+      <div class="rev-card-inner">
+        <div class="rev-top">
+          <div class="rev-stars" aria-label="5 stars">★★★★★</div>
+          <span class="rev-quote-badge" aria-hidden="true">“</span>
+        </div>
+        <p class="rev-text">"Hum ne 3 campuses ke liye 600 desk-bench sets order kiye thay. Steel quality aur laminate finish la-jawab hai. Bachon ke posture ke liye design bohot behtareen hai."</p>
+        <div class="rev-author">
+          <div class="rev-avatar-box">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80" alt="Tariq Mehmood" class="rev-avatar" loading="lazy">
+            <span class="rev-verified" title="Verified Client">✓</span>
+          </div>
+          <div class="rev-meta">
+            <strong>Tariq Mehmood</strong>
+            <span class="rev-role">Director, Apex Grammar School</span>
+            <span class="rev-loc">📍 Lahore, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rev-card rv">
+      <div class="rev-card-inner">
+        <div class="rev-top">
+          <div class="rev-stars" aria-label="5 stars">★★★★★</div>
+          <span class="rev-quote-badge" aria-hidden="true">“</span>
+        </div>
+        <p class="rev-text">"Science lab aur library setup bohot standard ka banaya. Delivery time par aayi aur installation team ne sab kuch khud fit kar diya. Highly recommended!"</p>
+        <div class="rev-author">
+          <div class="rev-avatar-box">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80" alt="Dr. Farhana Siddiqui" class="rev-avatar" loading="lazy">
+            <span class="rev-verified" title="Verified Client">✓</span>
+          </div>
+          <div class="rev-meta">
+            <strong>Dr. Farhana Siddiqui</strong>
+            <span class="rev-role">Principal, Cambridge Model School</span>
+            <span class="rev-loc">📍 Karachi, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rev-card rv">
+      <div class="rev-card-inner">
+        <div class="rev-top">
+          <div class="rev-stars" aria-label="5 stars">★★★★★</div>
+          <span class="rev-quote-badge" aria-hidden="true">“</span>
+        </div>
+        <p class="rev-text">"Factory direct rates par aisi mazboot quality market mein kahin nahi milti. 2 saal ho gaye hain lekin furniture bilkul naya lagta hai. Best manufacturer in Pakistan."</p>
+        <div class="rev-author">
+          <div class="rev-avatar-box">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80" alt="Malik Shahzad" class="rev-avatar" loading="lazy">
+            <span class="rev-verified" title="Verified Client">✓</span>
+          </div>
+          <div class="rev-meta">
+            <strong>Malik Shahzad</strong>
+            <span class="rev-role">Administrator, Educators Campus</span>
+            <span class="rev-loc">📍 Faisalabad, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rev-card rv">
+      <div class="rev-card-inner">
+        <div class="rev-top">
+          <div class="rev-stars" aria-label="5 stars">★★★★★</div>
+          <span class="rev-quote-badge" aria-hidden="true">“</span>
+        </div>
+        <p class="rev-text">"Auditorium chairs aur computer lab tables banwaye thay. Cable management aur cushioned seating bohot aala thi. WhatsApp support har waqt active rehti hai."</p>
+        <div class="rev-author">
+          <div class="rev-avatar-box">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80" alt="Prof. Abdul Qayyum" class="rev-avatar" loading="lazy">
+            <span class="rev-verified" title="Verified Client">✓</span>
+          </div>
+          <div class="rev-meta">
+            <strong>Prof. Abdul Qayyum</strong>
+            <span class="rev-role">Dean, City University College</span>
+            <span class="rev-loc">📍 Islamabad, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rev-card rv">
+      <div class="rev-card-inner">
+        <div class="rev-top">
+          <div class="rev-stars" aria-label="5 stars">★★★★★</div>
+          <span class="rev-quote-badge" aria-hidden="true">“</span>
+        </div>
+        <p class="rev-text">"Kindergarten kids tables aur colourful chairs itni khubsurat hain ke parents bohot impress hue. Safe rounded edges hain jo chotay bachon ke liye bilkul safe hain."</p>
+        <div class="rev-author">
+          <div class="rev-avatar-box">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80" alt="Ayesha Rehman" class="rev-avatar" loading="lazy">
+            <span class="rev-verified" title="Verified Client">✓</span>
+          </div>
+          <div class="rev-meta">
+            <strong>Ayesha Rehman</strong>
+            <span class="rev-role">Branch Head, Little Angels Pre-School</span>
+            <span class="rev-loc">📍 Multan, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rev-card rv">
+      <div class="rev-card-inner">
+        <div class="rev-top">
+          <div class="rev-stars" aria-label="5 stars">★★★★★</div>
+          <span class="rev-quote-badge" aria-hidden="true">“</span>
+        </div>
+        <p class="rev-text">"Bulk order par special discount mila aur pure Pakistan mein safe delivery di. Steel lockers aur teacher tables ki build quality top-notch hai."</p>
+        <div class="rev-author">
+          <div class="rev-avatar-box">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80" alt="Engr. Kamran Khan" class="rev-avatar" loading="lazy">
+            <span class="rev-verified" title="Verified Client">✓</span>
+          </div>
+          <div class="rev-meta">
+            <strong>Engr. Kamran Khan</strong>
+            <span class="rev-role">Project Manager, Beacon Academy</span>
+            <span class="rev-loc">📍 Peshawar, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="review-trust-banner rv">
+    <div class="trust-item"><strong>4.9 / 5.0</strong><span>⭐⭐⭐⭐⭐ Client Satisfaction</span></div>
+    <div class="trust-divider"></div>
+    <div class="trust-item"><strong>500+</strong><span>Schools &amp; Colleges Served</span></div>
+    <div class="trust-divider"></div>
+    <div class="trust-item"><strong>100%</strong><span>Factory Direct in Pakistan</span></div>
+    <div class="trust-divider"></div>
+    <div class="trust-item"><strong>15+</strong><span>Years Manufacturing Trust</span></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <h2 class="title rv">Contact Us</h2>
+  <p class="sub rv">Apni requirement bhejein, hum jaldi jawab denge.</p>
+  <div class="contact">
+    <div class="info rv">
+      <h3>Rabta Karein</h3>
+      <p>📞 WhatsApp / Call:<br><b style="font-size:23px">0324 6627054</b></p>
+      <p>📍 Pakistan – Nationwide Delivery</p>
+      <p>⏰ Mon – Sat: 9:00 AM – 7:00 PM</p>
+      <a class="btn btn-wa" target="_blank" rel="noopener" href="https://wa.me/923246627054">Chat on WhatsApp</a>
+    </div>
+    <form id="cf" novalidate>
+      <div class="field">
+        <label for="n">Aap ka naam / School name</label>
+        <input id="n" name="name" placeholder="e.g. The City School" required autocomplete="name" aria-describedby="errN">
+        <div class="err-msg" id="errN">Meherbani kar ke apna naam likhein.</div>
+      </div>
+      <div class="field">
+        <label for="p">Phone number</label>
+        <input id="p" name="phone" type="tel" inputmode="tel" placeholder="03XX XXXXXXX" required autocomplete="tel" pattern="[0-9+\-\s()]{7,20}" aria-describedby="errP">
+        <div class="err-msg" id="errP">Sahi phone number likhein (7+ digits).</div>
+      </div>
+      <div class="field">
+        <label for="s">Product category</label>
+        <select id="s" name="category">
+          <option>Classroom Desks &amp; Benches</option><option>Chairs</option><option>Boards</option><option>Lab Furniture</option><option>Library Furniture</option><option>Complete School Setup</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="m">Quantity aur details</label>
+        <textarea id="m" name="details" rows="4" placeholder="Quantity aur details likhein..."></textarea>
+      </div>
+      <button class="btn btn-accent" type="submit">WhatsApp Par Bhejein</button>
+    </form>
+  </div>
+</div></section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="f-col f-brand">
+        <a class="logo" href="#home" aria-label="School Furniture home">School <b>Furniture</b></a>
+        <p class="f-desc">Pakistan ki leading school, college aur educational furniture manufacturer. Mazboot heavy-duty steel, ergonomic design aur factory direct wholesale prices.</p>
+        <div class="f-badges">
+          <span class="f-pill">🏫 500+ Schools Served</span>
+          <span class="f-pill">🛡️ 10-Year Durability</span>
+          <span class="f-pill">🚚 Nationwide Delivery</span>
+        </div>
+      </div>
+      <div class="f-col">
+        <h4>Quick Links</h4>
+        <ul class="f-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">3D Products</a></li>
+          <li><a href="#about">About School Furniture</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#reviews">Client Reviews</a></li>
+          <li><a href="#order">Order Process</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Product Categories</h4>
+        <ul class="f-links">
+          <li><a href="#products">Classroom Desks &amp; Benches</a></li>
+          <li><a href="#products">Ergonomic Student Chairs</a></li>
+          <li><a href="#products">Teacher Executive Tables</a></li>
+          <li><a href="#products">Science &amp; Computer Labs</a></li>
+          <li><a href="#products">Library Bookshelves &amp; Tables</a></li>
+          <li><a href="#products">Hostel Bunk Beds &amp; Lockers</a></li>
+          <li><a href="#products">Kindergarten &amp; Play Equipment</a></li>
+        </ul>
+      </div>
+      <div class="f-col f-contact">
+        <h4>Direct Factory Contact</h4>
+        <div class="f-ci">
+          <span class="f-ic" aria-hidden="true">📞</span>
+          <div>
+            <strong>WhatsApp &amp; Call:</strong>
+            <a href="https://wa.me/923246627054" target="_blank" rel="noopener">0324 6627054</a>
+          </div>
+        </div>
+        <div class="f-ci">
+          <span class="f-ic" aria-hidden="true">📍</span>
+          <div>
+            <strong>Delivery Coverage:</strong>
+            <span>All Cities across Pakistan (Lahore, Karachi, Islamabad, etc.)</span>
+          </div>
+        </div>
+        <div class="f-ci">
+          <span class="f-ic" aria-hidden="true">⏰</span>
+          <div>
+            <strong>Factory Timings:</strong>
+            <span>Mon – Sat: 9:00 AM – 7:00 PM</span>
+          </div>
+        </div>
+        <a class="btn btn-accent f-btn" href="https://wa.me/923246627054?text=Assalam%20o%20Alaikum%2C%20mujhe%20School%20Furniture%20quotation%20chahiye" target="_blank" rel="noopener">WhatsApp Quote Mangwayein</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="f-copy">© <b>2026</b> School Furniture. All Rights Reserved. | Pakistan's Premier School Furniture Manufacturer</div>
+      <div class="f-foot-links">
+        <a href="#home">Back to Top ↑</a>
+        <a href="https://wa.me/923246627054" target="_blank" rel="noopener">WhatsApp Support</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a class="wafloat" target="_blank" rel="noopener" href="https://wa.me/923246627054?text=Assalam%20o%20Alaikum" aria-label="WhatsApp par chat karein">
+<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9 3 3.3 8.6 3.3 15.5c0 2.4.7 4.7 1.9 6.6L3 29l7.1-2.1c1.8 1 3.8 1.5 5.9 1.5 7 0 12.7-5.6 12.7-12.5S23 3 16 3zm6.3 17.5c-.3.8-1.6 1.5-2.2 1.6-.6.1-1.3.1-2.1-.1-.5-.2-1.1-.4-1.9-.7-3.3-1.4-5.4-4.7-5.6-4.9-.2-.2-1.3-1.7-1.3-3.2s.8-2.3 1.1-2.6c.3-.3.6-.4.8-.4h.6c.2 0 .5-.1.7.5.3.6.9 2.1 1 2.3.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.4-.5.6-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.2.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.2.7-.1.3.1 1.8.8 2.1 1 .3.2.5.2.6.4.1.1.1.8-.2 1.5z"/></svg></a>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Shopping cart" aria-hidden="true">
+  <div class="drawer-head">
+    <h3>🛒 Aap Ka Cart</h3>
+    <button class="drawer-close" id="cartClose" aria-label="Cart band karein">✕</button>
+  </div>
+  <div class="drawer-body" id="cartItems"></div>
+  <div class="drawer-foot">
+    <div class="total"><span>Total Items</span><span id="cartTotal">0</span></div>
+    <button class="btn btn-err" id="clearCart" type="button">Cart Saaf Karein</button>
+    <button class="btn btn-wa" id="orderWA" type="button">WhatsApp par Order Karein</button>
+  </div>
+</aside>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+"use strict";
+const WA="923246627054";
+const RM=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const canHover=window.matchMedia("(hover: hover)").matches;
+const U=id=>`https://images.unsplash.com/${id}?auto=format&fit=crop&w=1200&q=80`;
+const waLink=t=>"https://wa.me/"+WA+"?text="+encodeURIComponent(t);
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+
+/* ---------- PRODUCTS ---------- */
+const P=[
+["Classroom Desk & Bench Set","Desks",U("photo-1509062522246-3755977927d7"),"Mazboot steel frame, laminated top aur 2-student bench set.","🪑"],
+["Single Student Desk","Desks",U("photo-1503676260728-1c00da094a0b"),"Ergonomic single desk, book box ke saath.","🪑"],
+["Study Chair – Plastic","Chairs",U("photo-1598300042247-d088f8ab3a91"),"Halki aur mazboot plastic chair, bachon ke liye safe edges.","🪑"],
+["Teacher Executive Chair","Chairs",U("photo-1519947486511-46149fa0a254"),"High-back cushioned chair, teachers ke liye poora aaram.","💺"],
+["Teacher Table with Drawers","Desks",U("photo-1611269154421-4e27233ac5c7"),"Solid wood table, taalon wale drawers ke saath.","🪵"],
+["Green Chalk Board","Boards",U("photo-1509228468518-180dd4864904"),"Wall-mounted, scratch-resistant chalk surface.","📐"],
+["White Marker Board","Boards",U("photo-1580894732444-8ecded7900cd"),"Magnetic board, aluminium frame ke saath.","🖊️"],
+["Library Bookshelf","Library",U("photo-1521587760476-6c12a4b040da"),"Multi-tier wooden bookshelf, books ke liye perfect.","📚"],
+["Library Reading Table","Library",U("photo-1523240795612-9a054b0db644"),"Bara reading table, group study ke liye behtareen.","📖"],
+["Student Steel Locker","Storage",U("photo-1595846519845-68e298c2edd8"),"Multi-door steel locker, safe locks ke saath.","🔐"],
+["Science Lab Table","Lab",U("photo-1554475901-4538ddfbccc2"),"Chemical-resistant top aur andar storage ke saath.","🔬"],
+["Computer Lab Desk","Lab",U("photo-1531482615713-2afd69097998"),"Cable management wala ergonomic computer workstation.","💻"],
+["Hostel Bunk Bed","Hostel",U("photo-1555854877-bab0e564b8d5"),"Heavy-duty steel bunk bed, hostels ke liye mazboot.","🛏️"],
+["Playground Swing & Slide","Playground",U("photo-1568644396922-5c3bfae12521"),"Bachon ke liye safe aur colourful play equipment.","🎢"],
+["Auditorium Seating","Auditorium",U("photo-1519452575417-564c1401ecc0"),"Cushioned fold-up seats, row system ke saath.","🏟️"],
+["Kindergarten Kids Table Set","Kindergarten",U("photo-1588072432836-e10032774350"),"Rangeen kids table aur chairs ka complete set.","🧒"]
+];
+const cats=["All",...new Set(P.map(p=>p[1]))];
+const fEl=document.getElementById("filters"),gEl=document.getElementById("grid");
+
+/* ---------- CART ---------- */
+let cart=[];
+try{const s=localStorage.getItem("schoolfurniture_cart")||localStorage.getItem("edufurn_cart");if(s){const a=JSON.parse(s);if(Array.isArray(a))cart=a.filter(x=>x&&typeof x.i==="number"&&P[x.i]);}}catch(e){}
+const save=()=>{try{localStorage.setItem("schoolfurniture_cart",JSON.stringify(cart))}catch(e){}};
+const cartCount=document.getElementById("cartCount");
+const toastEl=document.getElementById("toast");
+let toastT;
+function toast(msg){
+  toastEl.textContent=msg;toastEl.classList.add("show");
+  clearTimeout(toastT);toastT=setTimeout(()=>toastEl.classList.remove("show"),2200);
+}
+function totalQty(){return cart.reduce((s,x)=>s+x.qty,0)}
+function inCart(i){return cart.some(x=>x.i===i)}
+const cartOpenBtn=document.getElementById("cartOpen");
+function updateBadge(){
+  const n=totalQty();
+  cartCount.textContent=n;
+  cartOpenBtn.setAttribute("aria-label","Cart kholein — "+n+" item"+(n===1?"":"s"));
+  cartCount.classList.remove("bump");
+  if(!RM){void cartCount.offsetWidth;cartCount.classList.add("bump");setTimeout(()=>cartCount.classList.remove("bump"),320);}
+}
+function syncButtons(){
+  document.querySelectorAll("[data-add]").forEach(b=>{
+    const i=+b.dataset.add,on=inCart(i);
+    b.classList.toggle("added",on);
+    b.textContent=on?"✓ Added":"Add to Cart";
+    b.setAttribute("aria-pressed",on?"true":"false");
+  });
+}
+function addToCart(i){
+  if(inCart(i)){cart=cart.filter(x=>x.i!==i);toast("Cart se hata diya gaya");}
+  else{cart.push({i:i,qty:1});toast("✓ "+P[i][0]+" cart mein add ho gaya");}
+  save();updateBadge();syncButtons();renderCart();
+}
+function changeQty(i,d){
+  const it=cart.find(x=>x.i===i);if(!it)return;
+  it.qty+=d;
+  if(it.qty<1){cart=cart.filter(x=>x.i!==i);toast("Item hata diya gaya");}
+  save();updateBadge();syncButtons();renderCart();
+}
+function removeItem(i){cart=cart.filter(x=>x.i!==i);save();updateBadge();syncButtons();renderCart();toast("Item hata diya gaya");}
+
+const cartItems=document.getElementById("cartItems"),cartTotal=document.getElementById("cartTotal");
+function renderCart(){
+  cartTotal.textContent=totalQty();
+  if(!cart.length){
+    cartItems.innerHTML='<div class="empty"><span class="big" aria-hidden="true">🛒</span><strong>Cart abhi khali hai</strong><p>Neeche collection se product "Add to Cart" karein.</p></div>';
+    return;
+  }
+  cartItems.innerHTML=cart.map(x=>{
+    const p=P[x.i],nm=esc(p[0]);
+    return '<div class="citem"><div class="cname"><strong>'+nm+'</strong><small>'+esc(p[1])+'</small></div>'+
+    '<div class="qty"><button type="button" data-q="-1" data-i="'+x.i+'" aria-label="'+nm+' ki quantity kam karein">−</button>'+
+    '<span aria-label="Quantity">'+x.qty+'</span>'+
+    '<button type="button" data-q="1" data-i="'+x.i+'" aria-label="'+nm+' ki quantity barhayein">+</button></div>'+
+    '<button class="rm" type="button" data-rm="'+x.i+'" aria-label="'+nm+' cart se remove karein">✕</button></div>';
+  }).join("");
+}
+cartItems.addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;
+  if(b.dataset.q)changeQty(+b.dataset.i,+b.dataset.q);
+  else if(b.dataset.rm)removeItem(+b.dataset.rm);
+});
+document.getElementById("clearCart").addEventListener("click",()=>{
+  if(!cart.length){toast("Cart pehle se khali hai");return;}
+  cart=[];save();updateBadge();syncButtons();renderCart();toast("Cart saaf kar diya gaya");
+});
+document.getElementById("orderWA").addEventListener("click",()=>{
+  if(!cart.length){toast("Cart khali hai – pehle product add karein");return;}
+  const lines=cart.map((x,n)=>(n+1)+". "+encodeURIComponent(P[x.i][0])+" — Qty: "+x.qty).join("%0A");
+  const msg="Assalam o Alaikum! School Furniture se order:%0A%0A"+lines+"%0A%0ATotal items: "+totalQty()+"%0A%0AKriya meherbani quotation confirm kar dein.";
+  window.open("https://wa.me/"+WA+"?text="+msg,"_blank","noopener");
+});
+
+/* ---------- DRAWER ---------- */
+const drawer=document.getElementById("drawer"),overlay=document.getElementById("overlay");
+let lastFocus=null;
+function openCart(){
+  lastFocus=document.activeElement;
+  drawer.classList.add("open");overlay.classList.add("open");
+  drawer.setAttribute("aria-hidden","false");
+  document.body.style.overflow="hidden";
+  document.getElementById("cartClose").focus();
+}
+function closeCart(){
+  drawer.classList.remove("open");overlay.classList.remove("open");
+  drawer.setAttribute("aria-hidden","true");
+  document.body.style.overflow="";
+  if(lastFocus&&lastFocus.focus)lastFocus.focus();
+}
+document.getElementById("cartOpen").addEventListener("click",openCart);
+document.getElementById("cartClose").addEventListener("click",closeCart);
+overlay.addEventListener("click",closeCart);
+document.addEventListener("keydown",e=>{
+  if(!drawer.classList.contains("open"))return;
+  if(e.key==="Escape"){closeCart();return;}
+  if(e.key!=="Tab")return;
+  const f=drawer.querySelectorAll('a[href],button:not([disabled]),input,select,textarea');
+  if(!f.length)return;
+  const first=f[0],last=f[f.length-1];
+  if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+  else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+  else if(!drawer.contains(document.activeElement)){e.preventDefault();first.focus();}
+});
+
+/* ---------- RENDER PRODUCTS ---------- */
+let active="All";
+function cardHTML(p,idx){
+  const name=esc(p[0]);
+  const msg=waLink('Assalam o Alaikum, mujhe "'+p[0]+'" ka order karna hai. (School Furniture website)');
+  return '<article class="card rv">'+
+  '<div class="card-img"><span class="tag">'+esc(p[1])+'</span><span class="card-ph" aria-hidden="true">'+p[4]+'</span>'+
+  '<img loading="lazy" src="'+esc(p[2])+'" alt="'+name+' – School Furniture" onerror="this.style.display=\'none\'"></div>'+
+  '<div class="card-body"><h3>'+name+'</h3><p>'+esc(p[3])+'</p>'+
+  '<div class="actions">'+
+  '<a class="btn btn-accent" href="'+msg+'" target="_blank" rel="noopener">Order Now</a>'+
+  '<button class="btn btn-ghost btn-cart" type="button" data-add="'+idx+'" aria-pressed="false">Add to Cart</button>'+
+  '<a class="icon-btn" href="'+msg+'" target="_blank" rel="noopener" aria-label="'+name+' WhatsApp par order karein">'+
+  '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9 3 3.3 8.6 3.3 15.5c0 2.4.7 4.7 1.9 6.6L3 29l7.1-2.1c1.8 1 3.8 1.5 5.9 1.5 7 0 12.7-5.6 12.7-12.5S23 3 16 3zm6.3 17.5c-.3.8-1.6 1.5-2.2 1.6-.6.1-1.3.1-2.1-.1-.5-.2-1.1-.4-1.9-.7-3.3-1.4-5.4-4.7-5.6-4.9-.2-.2-1.3-1.7-1.3-3.2s.8-2.3 1.1-2.6c.3-.3.6-.4.8-.4h.6c.2 0 .5-.1.7.5.3.6.9 2.1 1 2.3.1.2.1.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.4-.5.6-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.2.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.2.7-.1.3.1 1.8.8 2.1 1 .3.2.5.2.6.4.1.1.1.8-.2 1.5z"/></svg></a>'+
+  '</div></div></article>';
+}
+function render(c){
+  active=c;
+  const list=P.map((p,i)=>({p:p,i:i})).filter(o=>c==="All"||o.p[1]===c);
+  gEl.innerHTML=list.map(o=>cardHTML(o.p,o.i)).join("");
+  syncButtons();
+  setDelays(gEl);
+  observeAll(gEl);
+  if(RM)gEl.querySelectorAll(".rv").forEach(el=>el.classList.add("in"));
+  tilt();
+}
+fEl.innerHTML=cats.map((c,i)=>'<button type="button" class="'+(i?"":"on")+'" aria-pressed="'+(i?"false":"true")+'">'+c+'</button>').join("");
+fEl.addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;
+  [...fEl.children].forEach(x=>{x.classList.remove("on");x.setAttribute("aria-pressed","false")});
+  b.classList.add("on");b.setAttribute("aria-pressed","true");
+  render(b.textContent);
+});
+gEl.addEventListener("click",e=>{
+  const b=e.target.closest("[data-add]");if(!b)return;
+  addToCart(+b.dataset.add);
+});
+
+/* ---------- 3D TILT ---------- */
+function tilt(){
+  if(RM||!canHover)return;
+  document.querySelectorAll(".card, .rev-card").forEach(c=>{
+    c.addEventListener("mousemove",ev=>{
+      const r=c.getBoundingClientRect();
+      const x=(ev.clientX-r.left)/r.width-.5,y=(ev.clientY-r.top)/r.height-.5;
+      c.style.transform="rotateY("+(x*12).toFixed(2)+"deg) rotateX("+(-y*12).toFixed(2)+"deg) translateY(-8px)";
+    });
+    c.addEventListener("mouseleave",()=>{c.style.transform=""});
+  });
+}
+
+/* ---------- REVEAL ---------- */
+function setDelays(scope){
+  (scope||document).querySelectorAll(".rv").forEach(el=>{
+    const sibs=[...el.parentElement.children].filter(s=>s.classList&&s.classList.contains("rv"));
+    const k=sibs.indexOf(el);
+    el.style.setProperty("--d",(k>0?k*90:0)+"ms");
+  });
+}
+let io=null;
+function reveal(el){
+  el.classList.add("in");
+  const d=parseInt(el.style.getPropertyValue("--d"),10)||0;
+  /* after the staggered reveal has played, drop the delay so hover/tilt reacts instantly */
+  if(d)setTimeout(()=>{if(el.classList.contains("in"))el.style.setProperty("--d","0ms");},d+900);
+}
+if("IntersectionObserver" in window && !RM){
+  io=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){reveal(e.target);io.unobserve(e.target);}
+  }),{threshold:.12,rootMargin:"0px 0px -40px 0px"});
+}
+function observeAll(scope){
+  const els=(scope||document).querySelectorAll(".rv");
+  if(!io){els.forEach(el=>reveal(el));return;}
+  els.forEach(el=>{if(!el.classList.contains("in"))io.observe(el)});
+}
+
+/* ---------- COUNTERS ---------- */
+const counters=document.querySelectorAll("[data-n]");
+function runCounter(el){
+  const t=+el.dataset.n,suf=el.dataset.suffix||"";
+  if(RM){el.textContent=t.toLocaleString()+suf;return;}
+  const dur=1500,start=performance.now();
+  function step(now){
+    const k=Math.min(1,(now-start)/dur);
+    const e=1-Math.pow(1-k,3);
+    el.textContent=Math.floor(e*t).toLocaleString()+(k>=1?suf:"");
+    if(k<1)requestAnimationFrame(step);else el.textContent=t.toLocaleString()+suf;
+  }
+  requestAnimationFrame(step);
+}
+if("IntersectionObserver" in window){
+  const co=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){co.unobserve(e.target);runCounter(e.target);}
+  }),{threshold:.4});
+  counters.forEach(el=>co.observe(el));
+}else counters.forEach(runCounter);
+
+/* ---------- NAV / PROGRESS / MENU ---------- */
+const nav=document.getElementById("nav"),prog=document.getElementById("progress");
+function onScroll(){
+  const y=window.pageYOffset||document.documentElement.scrollTop;
+  nav.classList.toggle("scrolled",y>30);
+  const h=document.documentElement.scrollHeight-window.innerHeight;
+  prog.style.width=(h>0?Math.min(100,(y/h)*100):0)+"%";
+}
+window.addEventListener("scroll",onScroll,{passive:true});
+window.addEventListener("resize",onScroll);
+onScroll();
+
+const menu=document.getElementById("menu"),menuBtn=document.getElementById("menuBtn");
+menuBtn.addEventListener("click",()=>{
+  const open=menu.classList.toggle("open");
+  menuBtn.setAttribute("aria-expanded",open?"true":"false");
+  menuBtn.textContent=open?"✕":"☰";
+});
+menu.addEventListener("click",e=>{
+  if(e.target.tagName==="A"){
+    menu.classList.remove("open");
+    menuBtn.setAttribute("aria-expanded","false");
+    menuBtn.textContent="☰";
+  }
+});
+
+/* ---------- CONTACT FORM ---------- */
+const cf=document.getElementById("cf");
+cf.addEventListener("submit",e=>{
+  e.preventDefault();
+  const n=document.getElementById("n"),p=document.getElementById("p");
+  const eN=document.getElementById("errN"),eP=document.getElementById("errP");
+  let ok=true;
+  if(!n.value.trim()){eN.classList.add("show");n.setAttribute("aria-invalid","true");ok=false;}
+  else{eN.classList.remove("show");n.removeAttribute("aria-invalid");}
+  if(!/^[0-9+\-\s()]{7,20}$/.test(p.value.trim())){eP.classList.add("show");p.setAttribute("aria-invalid","true");ok=false;}
+  else{eP.classList.remove("show");p.removeAttribute("aria-invalid");}
+  if(!ok){(n.getAttribute("aria-invalid")?n:p).focus();return;}
+  const msg="Assalam o Alaikum!%0AName: "+encodeURIComponent(n.value.trim())+
+    "%0APhone: "+encodeURIComponent(p.value.trim())+
+    "%0AProduct: "+encodeURIComponent(document.getElementById("s").value)+
+    "%0ADetails: "+encodeURIComponent(document.getElementById("m").value.trim());
+  window.open("https://wa.me/"+WA+"?text="+msg,"_blank","noopener");
+});
+
+/* ---------- 3D CUBE INTERACTION ---------- */
+(function setupCube(){
+  const stage = document.querySelector(".cube-stage");
+  const cube = document.getElementById("cube");
+  if(!stage || !cube) return;
+
+  let isDragging = false;
+  let startX = 0, startY = 0;
+  let rotX = -16, rotY = 0;
+  let resumeTimer = null;
+
+  function startDrag(clientX, clientY){
+    isDragging = true;
+    cube.classList.add("is-dragging");
+    clearTimeout(resumeTimer);
+    startX = clientX;
+    startY = clientY;
+  }
+
+  function moveDrag(clientX, clientY){
+    if(!isDragging) return;
+    const dx = clientX - startX;
+    const dy = clientY - startY;
+    rotY += dx * 0.7;
+    rotX -= dy * 0.7;
+    rotX = Math.max(-75, Math.min(75, rotX));
+    cube.style.transform = "rotateX(" + rotX.toFixed(1) + "deg) rotateY(" + rotY.toFixed(1) + "deg)";
+    startX = clientX;
+    startY = clientY;
+  }
+
+  function endDrag(){
+    if(!isDragging) return;
+    isDragging = false;
+    clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(function(){
+      cube.style.transform = "";
+      cube.classList.remove("is-dragging");
+    }, 2400);
+  }
+
+  stage.addEventListener("mousedown", function(e){
+    startDrag(e.clientX, e.clientY);
+  });
+  window.addEventListener("mousemove", function(e){
+    moveDrag(e.clientX, e.clientY);
+  });
+  window.addEventListener("mouseup", endDrag);
+
+  stage.addEventListener("touchstart", function(e){
+    if(e.touches && e.touches[0]){
+      startDrag(e.touches[0].clientX, e.touches[0].clientY);
+    }
+  }, {passive:true});
+  window.addEventListener("touchmove", function(e){
+    if(isDragging && e.touches && e.touches[0]){
+      moveDrag(e.touches[0].clientX, e.touches[0].clientY);
+    }
+  }, {passive:true});
+  window.addEventListener("touchend", endDrag);
+})();
+
+/* ---------- INIT ---------- */
+setDelays(document);
+render("All");
+tilt();
+observeAll(document);
+renderCart();
+updateBadge();
+})();
+</script>
+</body>
+</html>
